@@ -25,3 +25,11 @@ business. In order to develop this project we will use variety of technologies t
 ## Thought Process
 
 ![TP](thouht-process.png)
+
+## PostgreSQL Database
+
+User docker command to start postgres database.
+
+```bash
+docker run -it --rm --name rta-postgres -p 5455:5432 -e POSTGRES_PASSWORD=rtapostgrespw -d postgres
+```
